@@ -1,87 +1,80 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
-<html>
+﻿
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ncc网--http://nccw.tk</title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-size: 14px;
+}
+body {
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin:auto;
+	width:468px;
+	text-align:left
+}
+a:link {
+	color: #000;
+}
+a:visited {
+	color: #333;
+}
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
-
-  <title>Werltmnzdm</title>
-  <meta name="description" content="werltmnzdm">
-
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-</head>
+-->
+</style></head>
 
 <body>
 
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Werltmnzdm</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">werltmnzdm</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/werltmnzdm/werltmnzdm/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/werltmnzdm/werltmnzdm/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/werltmnzdm/werltmnzdm" class="code">View Werltmnzdm on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h3>Welcome to GitHub Pages.</h3>
+<div id="colee_right" style="overflow:hidden;width:465px;">
+<table cellpadding="0" cellspacing="0" border="0">
+<tr><td id="colee_right1" valign="top" align="center">
+<table cellpadding="2" cellspacing="0" border="0">
+<tr align="center">
+<td><p><A href=http://nccw.tk target=_blank><IMG height=128 src="ncc.gif" width=128 border=0></A></p></td>
+<td><p><A href=http://nccw.tk target=_blank><IMG height=128 src="ncc.gif" width=128 border=0></A></p></td>
+<td><p><A href=http://nccw.tk target=_blank><IMG height=128 src="ncc.gif" width=128 border=0></A></p></td>
+<td><p><A href=http://nccw.tk target=_blank><IMG height=128 src="ncc.gif" width=128 border=0></A></p></td>
+<td><p><A href=http://nccw.tk target=_blank><IMG height=128 src="ncc.gif" width=128 border=0></A></p></td>
+</tr>
+</table>
+</td>
+<td id="colee_right2" valign="top"></td>
+</tr>
+</table>
+</div>
+<script>
+var speed=30//速度数值越大速度越慢
+var colee_right2=document.getElementById("colee_right2");
+var colee_right1=document.getElementById("colee_right1");
+var colee_right=document.getElementById("colee_right");
+colee_right2.innerHTML=colee_right1.innerHTML
+function Marquee4(){
+if(colee_right.scrollLeft<=0)
+colee_right.scrollLeft+=colee_right2.offsetWidth
+else{
+colee_right.scrollLeft--
+}
+}
+var MyMar4=setInterval(Marquee4,speed)
+colee_right.onmouseover=function() {clearInterval(MyMar4)}
+colee_right.onmouseout=function() {MyMar4=setInterval(Marquee4,speed)}
+</script>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </article>
-      </div>
-    </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/werltmnzdm" class="avatar"><img src="https://secure.gravatar.com/avatar/078d5a5e1643177c62a919780daff023?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" width="48" height="48"/></a> <a href="https://github.com/werltmnzdm">werltmnzdm</a> maintains <a href="https://github.com/werltmnzdm/werltmnzdm">Werltmnzdm</a></p>
+<div><!-- Feedsky FEED JS发布代码开始 --><script src="http://feed.feedsky.com/nccnccwtk\jsout&n=12&e=utf8"></script><!-- Feedsky FEED JS发布代码结束 --></div>
+<div><p>叶子的离开，是风的追求，还是大树没有挽留。</p>
+</div>
+<div style="margin:5px; padding:2px;"></div>
 
 
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="http://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/werltmnzdm/werltmnzdm/tarball/master" class="tar">tar</a><a href="https://github.com/werltmnzdm/werltmnzdm/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
-
-  
+<div align="center">99960312&copy;qq.com  Inc. &nbsp;
+  <script type="text/javascript" src="http://nccw.tk"></script></div>
 </body>
 </html>
+
+
